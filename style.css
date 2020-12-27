@@ -64,20 +64,68 @@ h1 {
     display: flexbox;
 }
 
-.column {
-    float: left;
-    width: 50%;
+* {
+    box-sizing: border-box;
   }
   
-  /* Clear floats after the columns */
-  .aritcle-row:after {
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+
+
+/* columns */
+.main {
+    max-width: 100%;
+    margin: auto;
+
+}
+
+.port_row {
+    margin: 8px -16px;
+}
+
+/* Adds padding */
+.port_row,
+.port_row > .port_column {
+    padding: 8px;
+
+}
+
+/* create four equal columns that floats next to each other */
+.port_column {
+    float: left;
+    width: 25%;
+
+}
+
+/*clear floats after rows */
+.port_row:after {
     content: "";
     display: table;
     clear: both;
-  }
+
+}
+
+/* Content */
+.port_content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+    .port_column {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}
 
 @media screen and (max-width: 600px) {
-    .column {
+    .port_column {
       width: 100%;
     }
 }
