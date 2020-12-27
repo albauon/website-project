@@ -77,7 +77,7 @@ h1 {
 
 /* columns */
 .main {
-    max-width: 100%;
+    max-width: 1000px;
     margin: auto;
 
 }
@@ -117,10 +117,7 @@ h1 {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
     .port_column {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        object-position: bottom;
+        width: 50%;
     }
 }
 
