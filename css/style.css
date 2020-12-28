@@ -1,0 +1,155 @@
+h1 {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: teal;
+    color: #fff;
+
+}
+
+.bars {
+    overflow: hidden;
+    background-color: teal;
+}
+
+.bars ol {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.bar {
+    display: inline-block;
+    padding-left: 0px;
+    background-color: none;
+}
+
+.bars a {
+    float: center;
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.bars a:hover {
+ background-color: teal;
+ color: black;
+}
+
+
+.hamburger .material-icons {
+  color: white;
+  margin: auto 0;
+  align-self: center;
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger {
+    display: inline-block;
+    padding-left: 0px;
+    background-color: none;
+}
+
+.aside-article {
+    background-color: lightgray;
+    justify-content: left;
+}
+
+.article-center {
+    background-color: lightgray;
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 2px solid teal;
+    display: flexbox;
+}
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+ body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column  */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column  {
+      width: 50%;
+    }
+    .hamburger .material-icons {
+      display: inline-block;
+    }
+    .bar {
+      display: none;
+    }
+  }
+
+  
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  

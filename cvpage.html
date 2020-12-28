@@ -12,13 +12,23 @@
     <body>
         <h1>CV </h1>
         <nav class="bars">
-            <a clas="shownav"></a>
+            <nav class="mobile-menu close" id="menu">
+                <span class="material-icons close-button" onclick="toggle()">clear</span>
+                <ul>
+                    <li class="item"><a href="index.html">Home</a></li>
+                    <li class="item"><a href="portfolio.html">Porfolio</a></li>
+                    <li class="item"><a href="contact.html">Contact</a></li>
+                    <li class="item"><a href="cvpage.html">CV</a></li>
+                    <li class="item"><a href="sitereport.html">Site Report</a></li>
+                    
+                </ul>
             <ul>
                 <li class="bar"><a href="index.html">Home</a></li>
                 <li class="bar"><a href="portfolio.html">Porfolio</a></li>
                 <li class="bar"><a href="contact.html">Contact</a></li>
                 <li class="bar"><a href="cvpage.html">CV</a></li>
                 <li class="bar"><a href="sitereport.html">Site Report</a></li>
+                <li class="hamburger" onclick="toggle()"><span class="material-icons">menu</span></li>
             </ul>
     </nav>
         <nav class="header">
@@ -101,5 +111,6 @@
     <footer>
         <p>2020 Gopilan</p>
     </footer>
+    <script src="js/menu.js"></script>
     </body>
 </html>
