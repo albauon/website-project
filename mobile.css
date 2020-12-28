@@ -7,7 +7,7 @@
     border-radius: 0.1em;
 }
 
-.shownav:after {
+.shownav:before {
 content: "";
 position: absolute;
 width: 100%;
@@ -16,3 +16,13 @@ left: 0px;
 border-top: 0.2em solid #fff;
 
 }
+
+nav {
+    display: block;
+    background-color: teal;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+   }
