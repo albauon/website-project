@@ -61,10 +61,6 @@ h1 {
     background-color: none;
 }
 
-.aside-article {
-    background-color: lightgray;
-    justify-content: left;
-}
 
 .article-center {
     background-color: lightgray;
@@ -73,9 +69,10 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 5px;
-    column-count: 3;
-    column-gap: 50px;
-    column-rule: 2px solid teal;
+    column-count: 2;
+    column-gap: 10px;
+    column-rule-style: solid ;
+    
     display: flexbox;
 }
 
@@ -151,5 +148,9 @@ h1 {
       width: 100%;
     }
   }
+
+.main > h2 {
+  color: teal
+}
 
   
