@@ -146,16 +146,15 @@
   color: teal
 }
 
-.review {
-  margin: 0;
-  padding: .3rem;
-  background-color: lightgray;
-  font: 1rem 'Arial';
+div.form {
+  display: table-row;
 }
 
-.review > h1,
-.my-review {
-  margin: 5rem;
-  padding: 3rem;
-  font-size: 1.2rem;
+label, input {
+  display: table-cell;
+  margin: 10px;
+}
+
+label {
+  padding-right: 10px;
 }
