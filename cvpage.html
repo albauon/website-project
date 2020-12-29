@@ -4,24 +4,26 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="stylesheet" href="desktop.css"/>
-        <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <title>CV page</title>
     </head>
     <body>
         <h1>CV </h1>
+        <nav class="mobile-menu close" id="menu">
+            <span class="material-icons close-button" onclick="toggle()">clear</span>
+            <ul>
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="portfolio.html">Porfolio</a></li>
+                <li class="item"><a href="contact.html">Contact</a></li>
+                <li class="item"><a href="cvpage.html">CV</a></li>
+                <li class="item"><a href="sitereport.html">Site Report</a></li>
+                
+            </ul>
+        </nav>
         <nav class="bars">
-            <nav class="mobile-menu close" id="menu">
-                <span class="material-icons close-button" onclick="toggle()">clear</span>
-                <ul>
-                    <li class="item"><a href="index.html">Home</a></li>
-                    <li class="item"><a href="portfolio.html">Porfolio</a></li>
-                    <li class="item"><a href="contact.html">Contact</a></li>
-                    <li class="item"><a href="cvpage.html">CV</a></li>
-                    <li class="item"><a href="sitereport.html">Site Report</a></li>
-                    
-                </ul>
             <ul>
                 <li class="bar"><a href="index.html">Home</a></li>
                 <li class="bar"><a href="portfolio.html">Porfolio</a></li>
@@ -29,14 +31,8 @@
                 <li class="bar"><a href="cvpage.html">CV</a></li>
                 <li class="bar"><a href="sitereport.html">Site Report</a></li>
                 <li class="hamburger" onclick="toggle()"><span class="material-icons">menu</span></li>
+                
             </ul>
-    </nav>
-        <nav class="header">
-        <p class="name" > Jose Alberto Gopilan </p>
-            <address>
-              <a href="mailto:jose.gopilan@protonmail.com">jose.gopilan@protonmail.com</a><br>
-              <a href="tel:+0123456789">+447735375570</a>
-            </address>
         </nav>
 
         <nav class="left"></nav>
@@ -108,9 +104,9 @@
 
         
 
-    <footer>
-        <p>2020 Gopilan</p>
-    </footer>
+        <footer>
+            &copy; Jose Gopilan 2020
+        </footer>
     <script src="js/menu.js"></script>
     </body>
 </html>
