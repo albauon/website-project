@@ -75,7 +75,7 @@
   }
   
  body {
-    background-color: #f1f1f1;
+    background-color: lightgray;
     padding: 20px;
     font-family: Arial;
   }
@@ -146,6 +146,7 @@
   color: teal
 }
 
+/*Form*/
 div.form {
   display: table-row;
 }
@@ -158,3 +159,10 @@ label, input {
 label {
   padding-right: 10px;
 }
+
+.image-shot {
+  width: px;
+  height: 720px;
+  border: 1px soli
+}
+
