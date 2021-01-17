@@ -1,63 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/mobile.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-        <title>Contact</title>
-    </head>
-       <body>
-        <nav class="mobile-menu close" id="menu">
-            <span class="material-icons close-button" onclick="toggle()">clear</span>
-            <ul>
-                <li class="item"><a href="index.html">Home</a></li>
-                <li class="item"><a href="portfolio.html">Porfolio</a></li>
-                <li class="item"><a href="contact.html">Contact</a></li>
-                <li class="item"><a href="cvpage.html">CV</a></li>
-                <li class="item"><a href="sitereport.html">Site Report</a></li>
-            </ul>
-        </nav>
-            <nav class="bars">
-                <a clas="shownav"></a>
-                <ul>
-                    <li class="bar"><a href="index.html">Home</a></li>
-                    <li class="bar"><a href="portfolio.html">Porfolio</a></li>
-                    <li class="bar"><a href="contact.html">Contact</a></li>
-                    <li class="bar"><a href="cvpage.html">CV</a></li>
-                    <li class="bar"><a href="sitereport.html">Site Report</a></li>
-                    <li class="hamburger" onclick="toggle()"><span class="material-icons">menu</span></li>
-                </ul>
-            </nav>
-            
-           <main class="contact">
-               <form action="" method="get" class="form">
-                   <div class="form">
-                       <label for="name">Enter your name:</label>
-                       <input type="text" name="name" id="name" required>
-                   </div>
-                <div class="form">
-                    <label for="email">Enter your email:</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="form">
-                    <input type="submit" value="Subscribe!">
-                </div>
-               </form>
-            <p>Contact the author of this page:</p>
-
-            <address class="contact">
-              <a href="mailto:jose.gopilan@protonmail.com">jose.gopilan@protonmail.com</a><br>
-              <a href="tel:+0123456789">0123456789</a>
-            </address>
-           </main>
-
-           <footer>
-            &copy; Jose Gopilan 2020
-            </footer>
-           <script src="js/menu.js"></script>
-       </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Contact</title>
+</head>
+<body>
+  <nav class="mobile-menu close" id="menu">
+    <span class="material-icons close-button" onclick="toggle()">clear</span>
+    <ul>
+      <li class="item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="item">
+        <a href="portfolio.html">Porfolio</a>
+      </li>
+      <li class="item">
+        <a href="contact.html">Contact</a>
+      </li>
+      <li class="item">
+        <a href="cvpage.html">CV</a>
+      </li>
+      <li class="item">
+        <a href="sitereport.html">Site Report</a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="bars">
+    <a clas="shownav"></a>
+    <ul>
+      <li class="bar">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="bar">
+        <a href="portfolio.html">Porfolio</a>
+      </li>
+      <li class="bar">
+        <a href="contact.html">Contact</a>
+      </li>
+      <li class="bar">
+        <a href="cvpage.html">CV</a>
+      </li>
+      <li class="bar">
+        <a href="sitereport.html">Site Report</a>
+      </li>
+      <li class="hamburger" onclick="toggle()"><span class="material-icons">menu</span></li>
+    </ul>
+  </nav>
+  <main class="contact">
+    <form action="" method="get" class="form">
+      <div class="form">
+        <label for="name">Enter your name:</label> <input type="text" name="name" id="name" required="">
+      </div>
+      <div class="form">
+        <label for="email">Enter your email:</label> <input type="email" name="email" id="email" required="">
+      </div>
+      <div class="form">
+        <input type="submit" value="Subscribe!">
+      </div>
+    </form>
+    <p>Contact the author of this page:</p>
+    <address class="contact">
+      <a href="mailto:jose.gopilan@protonmail.com">jose.gopilan@protonmail.com</a><br>
+      <a href="tel:+0123456789">0123456789</a>
+    </address>
+  </main>
+  <footer>
+    © Jose Gopilan 2020
+  </footer>
+  <script src="js/menu.js"></script>
+</body>
 </html>
