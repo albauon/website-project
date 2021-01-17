@@ -28,14 +28,17 @@
     display: block;
     color: lightgray;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 14px;
     text-decoration: none;
 }
 
 .bars a:hover {
- background-color: teal;
  color: black;
 }
+
+.bars a:active {
+  font-weight: bold;
+ }
 
 
 .hamburger .material-icons {
@@ -96,7 +99,7 @@
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 800px) {
     .column  {
       width: 50%;
     }
@@ -138,6 +141,6 @@ label {
 .image-shot {
   width: px;
   height: 720px;
-  border: 1px soli
+  border: 1px solid;
 }
 
