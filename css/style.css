@@ -1,4 +1,11 @@
-
+ * {
+    box-sizing: border-box;
+  }
+  
+ body {
+    padding: 0x;
+    font-family: Arial;
+  }
 
 .bars {
     overflow: hidden;
@@ -46,15 +53,7 @@
 }
 
 
-  * {
-    box-sizing: border-box;
-  }
-  
- body {
-    background-color: lightgray;
-    padding: 20px;
-    font-family: Arial;
-  }
+ 
   
   /* Center website */
   .main {
