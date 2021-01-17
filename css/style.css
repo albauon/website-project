@@ -140,8 +140,8 @@ label {
 }
 
 .image-shot {
-  width: px;
-  height: 720px;
-  border: 1px solid;
+  width: auto;
+  height: auto;
+  border: 2px solid teal;
 }
 
