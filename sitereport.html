@@ -1,116 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/mobile.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-        <title>Site Report</title>
-    </head>
-    <body>
-        <nav class="mobile-menu close" id="menu">
-            <span class="material-icons close-button" onclick="toggle()">clear</span>
-            <ul>
-                <li class="item"><a href="index.html">Home</a></li>
-                <li class="item"><a href="portfolio.html">Porfolio</a></li>
-                <li class="item"><a href="contact.html">Contact</a></li>
-                <li class="item"><a href="cvpage.html">CV</a></li>
-                <li class="item"><a href="sitereport.html">Site Report</a></li>
-                
-            </ul>
-        </nav>
-        <nav class="bars">
-            <a clas="shownav"></a>
-            <ul>
-                <li class="bar"><a href="index.html">Home</a></li>
-                <li class="bar"><a href="portfolio.html">Porfolio</a></li>
-                <li class="bar"><a href="contact.html">Contact</a></li>
-                <li class="bar"><a href="cvpage.html">CV</a></li>
-                <li class="bar"><a href="sitereport.html">Site Report</a></li>
-                <li class="hamburger" onclick="toggle()"><span class="material-icons">menu</span></li>
-            </ul>
-        </nav>
-        <main>
-            <section class="topic">
-                    <h2>Site Report</h2>
-                    <h5>Navigation Design</h5>
-                            <img class="image-shot" src="/images/navbar-old.png"/>
-                             <p>This is old navigation design, and the default bullet points which will be removed within css. 
-                             </p>
-                            <hr>
-            </section>
-            
-             <section class="topic">
-                <h5>Navigation Design</h5>
-                        <img class="image-shot" src="/images/navbar-old-removed-bp.png"/>
-                         <p>I removed the bullet points by adding "list-style-type: none;" and set "margin: 0;" and "padding: 0;"
-                         </p>
-                        <hr>
-            </section>
-            <section class="topic">
-                <h5>Navigation Design</h5>
-                        <img class="image-shot" src="/images/navbar-old-1.png"/>
-                         <p>Here I started playing around more with css by adding background color, font-type and family.
-                         </p>
-                        <hr>
-            </section>
-            <section class="topic">
-                    <section class="topic">
-                        <h5>Navigation Design</h5>
-                                <img class="image-shot" src="/images/navbar-active.png"/>
-                                 <p>On my navigation design, on css I have added an active action. 
-                                     When users clicked it changes the font weight to bold,
-                                      this is just subtle visual indicator. Also added a hover state.
-                                 </p>
-                                <hr>
-            </section>        
-            
-
-                        <h4>Topic report</h4>
-                        <h5>Current Design</h5>
-                                <img class="image-shot" src="/images/current design.JPG"/>
-                            <p>As shown screenshot above, the cv layout was not centred, this is is mostly done in html. 
-                                I have not included any css for this page as it is mostly text.  </p>
-                                <hr>
-                </section>
-                <section class="topic">
-                        <h5>Contact Design</h5>
-                                <img class="image-shot" src="/images/contact-page-1.png"/>
-                            <p> On my contact page, it is quite plain however, I have implemented what the brief asked me to, this is just done by simple form
-                                element for user input.</p>
-                                <p>Another thing I have added is href tag for my email which directs the user to their default email and contact phone number. </p>
-                                <hr>
-                </section>
-                <section class="topic">
-                    <h5>Contact Design</h5>
-                            <img class="image-shot" src="/images/contactpage2.png"/>
-                             <p>I have also fixed the current contact design, before it was just below the nav. Now it follows my pages design.
-                             </p>
-                            <hr>
-            </section>
-            <section class="topic">
-                <h5>Portfolio Design</h5>
-                        <img class="image-shot" src="/images/portfolio-design.png"/>
-                         <p>This is my design for portolio page. I achieved my end goal which is the responsiveness 
-                             of the page and how the images stack onto each other when the internet browser size is being changed by user.
-                         </p>
-                        <hr>
-        </section>
-
-
-                
-                        
-
-
-
-
-        </main>    
-    <footer>
-        &copy; Jose Gopilan 2020
-    </footer>
-    <script src="js/menu.js"></script>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Site Report</title>
+</head>
+<body>
+  <nav class="mobile-menu close" id="menu">
+    <span class="material-icons close-button" onclick="toggle()">clear</span>
+    <ul>
+      <li class="item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="item">
+        <a href="portfolio.html">Porfolio</a>
+      </li>
+      <li class="item">
+        <a href="contact.html">Contact</a>
+      </li>
+      <li class="item">
+        <a href="cvpage.html">CV</a>
+      </li>
+      <li class="item">
+        <a href="sitereport.html">Site Report</a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="bars">
+    <a class="shownav"></a>
+    <ul>
+      <li class="bar">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="bar">
+        <a href="portfolio.html">Porfolio</a>
+      </li>
+      <li class="bar">
+        <a href="contact.html">Contact</a>
+      </li>
+      <li class="bar">
+        <a href="cvpage.html">CV</a>
+      </li>
+      <li class="bar">
+        <a href="sitereport.html">Site Report</a>
+      </li>
+      <li class="hamburger" onclick="toggle()"><span class="material-icons">menu</span></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="topic">
+      <h2>Site Report</h2>
+      <h5>Navigation Design</h5><img class="image-shot" src="/images/navbar-old.png" alt="navbar-old">
+      <p>This is old navigation design, and the default bullet points which will be removed within css.</p>
+      <hr>
+    </section>
+    <section class="topic">
+      <h5>Navigation Design</h5><img class="image-shot" src="/images/navbar-old-removed-bp.png" alt="navbar-old-removed-bp">
+      <p>I removed the bullet points by adding "list-style-type: none;" and set "margin: 0;" and "padding: 0;"</p>
+      <hr>
+    </section>
+    <section class="topic">
+      <h5>Navigation Design</h5><img class="image-shot" src="/images/navbar-old-1.png" alt="navbar-old-1">
+      <p>Here I started playing around more with css by adding background color, font-type and family.</p>
+      <hr>
+    </section>
+    <section class="topic">
+      <section class="topic">
+        <h5>Navigation Design</h5><img class="image-shot" src="/images/navbar-active.png" alt="navbar-active">
+        <p>On my navigation design, on css I have added an active action. When users clicked it changes the font weight to bold, this is just subtle visual indicator. Also added a hover state.</p>
+        <hr>
+      </section>
+      <h4>Topic report</h4>
+      <h5>Current Design</h5><img class="image-shot" src="/images/current%20design.JPG" alt="current%20design">
+      <p>As shown screenshot above, the cv layout was not centred, this is is mostly done in html. I have not included any css for this page as it is mostly text.</p>
+      <hr>
+    </section>
+    <section class="topic">
+      <h5>Contact Design</h5><img class="image-shot" src="/images/contact-page-1.png" alt="contact-page-1">
+      <p>On my contact page, it is quite plain however, I have implemented what the brief asked me to, this is just done by simple form element for user input.</p>
+      <p>Another thing I have added is href tag for my email which directs the user to their default email and contact phone number.</p>
+      <hr>
+    </section>
+    <section class="topic">
+      <h5>Contact Design</h5><img class="image-shot" src="/images/contactpage2.png" alt="contactpage2">
+      <p>I have also fixed the current contact design, before it was just below the nav. Now it follows my pages design.</p>
+      <hr>
+    </section>
+    <section class="topic">
+      <h5>Portfolio Design</h5><img class="image-shot" src="/images/portfolio-design.png" alt="portfolio-design">
+      <p>This is my design for portolio page. I achieved my end goal which is the responsiveness of the page and how the images stack onto each other when the internet browser size is being changed by user.</p>
+      <hr>
+    </section>
+    <section class="topic">
+      <h2>Code Validation</h2>
+      <h5>Contact page</h5><img class="image-shot" src="/images/contact-validatorhtml.png" alt="contact-validatorhtml">
+      <p>Here it's an error but I have not done any php during this assignment.</p>
+      <hr>
+    </section>
+    <section class="topic">
+      <h5>CV validation</h5><img class="image-shot" src="/images/cv-validatorhtml.png" alt="cv-validatorhtml">
+      <hr>
+    </section>
+    <section class="topic">
+      <h5>Portfolio validation</h5><img class="image-shot" src="/images/porfolio-validation-page.png" alt="porfolio-validation-page">
+      <hr>
+    </section>
+    <section class="topic">
+      <h5>Index validation</h5><img class="image-shot" src="/images/indexvalidation.png" alt="indexvalidation">
+      <hr>
+    </section>
+    <section class="topic">
+        <h5>Site report validation</h5><img class="image-shot" src="/images/sitereport-validation.png" alt="sitereportvalidation">
+        <hr>
+      </section>
+    <section>
+      <h2>Evaluation</h2>
+      <p>During the website project, I was quite confident since I have previous experiences on web development, coming from my GCSE's year in which I used Dreamweaver, however it is a massive changed since I found that I'll be using vs code. However, by following the module exercises, tt felt like putting Lego bricks for me and as soon I got a "base" for my page. That's where I added more complex (as for me it was) design.<br>
+      I tried my best following the HTML5 semantics and personally I do not feel, I have demonstrated it but partially and definitely need to work on this on future projects. Lastly, was debugging and coding in which I used "Markup Validation Service" which was a really great tool to check any errors within my source code. I will keep using this on future projects therefore making my code neat and clear.<br>
+      The biggest struggle for me was the Hamburger menu, doing it purely css was difficult and I did not understand the tutorial provided. So what I did was by using a simple vector image for the hamburger menu and adding a very small of js script. Which I think, it worked perfectly. Adding the animation was quite fun, I was able to play around but for minimalistic view.<br>
+      For my UI design, I got influenced by Formula 1 car liverly which they have this very unique colors, therefore I decided to go with the teal and different shades of greys. The navigation bar specifically, I wanted to give a simple design but with small amount of visual ques which helps me personally when navigating websites.<br>
+      Overall, I feel that my website is responsive and able to changed into a mobile version when web browser is changed, I think the design can be better specially fonts and visual detail, maybe an interesting background(?) and richer colour palette. Also I would prioritise the way I layout my website, there is a lot of improvement on my columns skills as seen on CV Page it is all over the page.</p>
+    </section><a href="sitereport.html">Back to top of page</a>
+  </main>
+  <footer>
+    © Jose Gopilan 2020
+  </footer>
+  <script src="js/menu.js"></script>
+</body>
 </html>
